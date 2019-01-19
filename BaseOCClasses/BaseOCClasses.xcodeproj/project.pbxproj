@@ -15,6 +15,21 @@
 		BA54CA1F21F2BF9600323E36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA54CA1E21F2BF9600323E36 /* main.m */; };
 		BA54CA2921F2BF9600323E36 /* BaseOCClassesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA54CA2821F2BF9600323E36 /* BaseOCClassesTests.m */; };
 		BA54CA3421F2BF9600323E36 /* BaseOCClassesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA54CA3321F2BF9600323E36 /* BaseOCClassesUITests.m */; };
+		BA54CA7C21F2C2A300323E36 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA54CA5321F2C2A200323E36 /* BaseTableViewCell.m */; };
+		BA54CA7D21F2C2A300323E36 /* BaseSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA54CA5421F2C2A200323E36 /* BaseSectionHeaderView.m */; };
+		BA54CA7E21F2C2A300323E36 /* BaseSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA54CA5521F2C2A200323E36 /* BaseSectionModel.m */; };
+		BA54CA7F21F2C2A300323E36 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA54CA5721F2C2A200323E36 /* BaseTableViewController.m */; };
+		BA54CA8021F2C2A300323E36 /* BaseSectionFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA54CA5C21F2C2A200323E36 /* BaseSectionFooterView.m */; };
+		BA54CA8121F2C2A300323E36 /* BaseTableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA54CA5E21F2C2A200323E36 /* BaseTableViewCellModel.m */; };
+		BA54CA8221F2C2A300323E36 /* BaseCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA54CA6121F2C2A200323E36 /* BaseCollectionView.m */; };
+		BA54CA8321F2C2A300323E36 /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA54CA6321F2C2A200323E36 /* BaseTableView.m */; };
+		BA54CA8521F2C2A300323E36 /* BaseCollectionCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA54CA6A21F2C2A200323E36 /* BaseCollectionCellModel.m */; };
+		BA54CA8621F2C2A300323E36 /* BaseCollectionReusableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BA54CA6D21F2C2A200323E36 /* BaseCollectionReusableViewHeader.m */; };
+		BA54CA8721F2C2A300323E36 /* BaseCollectionReusableViewFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = BA54CA6E21F2C2A200323E36 /* BaseCollectionReusableViewFooter.m */; };
+		BA54CA8821F2C2A300323E36 /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA54CA7121F2C2A200323E36 /* BaseCollectionViewCell.m */; };
+		BA54CA8921F2C2A300323E36 /* BaseCollectionSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA54CA7221F2C2A200323E36 /* BaseCollectionSectionModel.m */; };
+		BA54CA8A21F2C2A300323E36 /* BaseCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA54CA7521F2C2A300323E36 /* BaseCollectionViewController.m */; };
+		BA54CA9021F2C5AC00323E36 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA54CA8F21F2C5AC00323E36 /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +66,37 @@
 		BA54CA2F21F2BF9600323E36 /* BaseOCClassesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseOCClassesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA54CA3321F2BF9600323E36 /* BaseOCClassesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseOCClassesUITests.m; sourceTree = "<group>"; };
 		BA54CA3521F2BF9600323E36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA54CA5321F2C2A200323E36 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		BA54CA5421F2C2A200323E36 /* BaseSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseSectionHeaderView.m; sourceTree = "<group>"; };
+		BA54CA5521F2C2A200323E36 /* BaseSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseSectionModel.m; sourceTree = "<group>"; };
+		BA54CA5621F2C2A200323E36 /* BaseSectionFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSectionFooterView.h; sourceTree = "<group>"; };
+		BA54CA5721F2C2A200323E36 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		BA54CA5821F2C2A200323E36 /* BaseTableViewCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCellModel.h; sourceTree = "<group>"; };
+		BA54CA5921F2C2A200323E36 /* BaseSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSectionHeaderView.h; sourceTree = "<group>"; };
+		BA54CA5A21F2C2A200323E36 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		BA54CA5B21F2C2A200323E36 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		BA54CA5C21F2C2A200323E36 /* BaseSectionFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseSectionFooterView.m; sourceTree = "<group>"; };
+		BA54CA5D21F2C2A200323E36 /* BaseSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSectionModel.h; sourceTree = "<group>"; };
+		BA54CA5E21F2C2A200323E36 /* BaseTableViewCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCellModel.m; sourceTree = "<group>"; };
+		BA54CA6021F2C2A200323E36 /* BaseCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionView.h; sourceTree = "<group>"; };
+		BA54CA6121F2C2A200323E36 /* BaseCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionView.m; sourceTree = "<group>"; };
+		BA54CA6321F2C2A200323E36 /* BaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
+		BA54CA6421F2C2A200323E36 /* BaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
+		BA54CA6A21F2C2A200323E36 /* BaseCollectionCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionCellModel.m; sourceTree = "<group>"; };
+		BA54CA6B21F2C2A200323E36 /* BaseCollectionSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionSectionModel.h; sourceTree = "<group>"; };
+		BA54CA6C21F2C2A200323E36 /* BaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewCell.h; sourceTree = "<group>"; };
+		BA54CA6D21F2C2A200323E36 /* BaseCollectionReusableViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionReusableViewHeader.m; sourceTree = "<group>"; };
+		BA54CA6E21F2C2A200323E36 /* BaseCollectionReusableViewFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionReusableViewFooter.m; sourceTree = "<group>"; };
+		BA54CA6F21F2C2A200323E36 /* BaseCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewController.h; sourceTree = "<group>"; };
+		BA54CA7021F2C2A200323E36 /* BaseCollectionCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionCellModel.h; sourceTree = "<group>"; };
+		BA54CA7121F2C2A200323E36 /* BaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewCell.m; sourceTree = "<group>"; };
+		BA54CA7221F2C2A200323E36 /* BaseCollectionSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionSectionModel.m; sourceTree = "<group>"; };
+		BA54CA7321F2C2A200323E36 /* BaseCollectionReusableViewFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionReusableViewFooter.h; sourceTree = "<group>"; };
+		BA54CA7421F2C2A300323E36 /* BaseCollectionReusableViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionReusableViewHeader.h; sourceTree = "<group>"; };
+		BA54CA7521F2C2A300323E36 /* BaseCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewController.m; sourceTree = "<group>"; };
+		BA54CA8C21F2C49F00323E36 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BA54CA8E21F2C5AC00323E36 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = BaseOCClasses/Base/BaseViewController/BaseViewController.h; sourceTree = SOURCE_ROOT; };
+		BA54CA8F21F2C5AC00323E36 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = BaseOCClasses/Base/BaseViewController/BaseViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +127,7 @@
 		BA54CA0321F2BF9500323E36 = {
 			isa = PBXGroup;
 			children = (
+				BA54CA8C21F2C49F00323E36 /* PrefixHeader.pch */,
 				BA54CA0E21F2BF9500323E36 /* BaseOCClasses */,
 				BA54CA2721F2BF9600323E36 /* BaseOCClassesTests */,
 				BA54CA3221F2BF9600323E36 /* BaseOCClassesUITests */,
@@ -101,6 +148,7 @@
 		BA54CA0E21F2BF9500323E36 /* BaseOCClasses */ = {
 			isa = PBXGroup;
 			children = (
+				BA54CA4221F2C2A200323E36 /* Base */,
 				BA54CA0F21F2BF9500323E36 /* AppDelegate.h */,
 				BA54CA1021F2BF9500323E36 /* AppDelegate.m */,
 				BA54CA1221F2BF9500323E36 /* ViewController.h */,
@@ -130,6 +178,83 @@
 				BA54CA3521F2BF9600323E36 /* Info.plist */,
 			);
 			path = BaseOCClassesUITests;
+			sourceTree = "<group>";
+		};
+		BA54CA4221F2C2A200323E36 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BA54CA9221F2C83600323E36 /* BaseViewController */,
+				BA54CA5221F2C2A200323E36 /* BaseTableViewController */,
+				BA54CA6921F2C2A200323E36 /* BaseCollectionViewController */,
+				BA54CA5F21F2C2A200323E36 /* BaseCollectionView */,
+				BA54CA6221F2C2A200323E36 /* BaseTableView */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BA54CA5221F2C2A200323E36 /* BaseTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BA54CA5621F2C2A200323E36 /* BaseSectionFooterView.h */,
+				BA54CA5C21F2C2A200323E36 /* BaseSectionFooterView.m */,
+				BA54CA5921F2C2A200323E36 /* BaseSectionHeaderView.h */,
+				BA54CA5421F2C2A200323E36 /* BaseSectionHeaderView.m */,
+				BA54CA5D21F2C2A200323E36 /* BaseSectionModel.h */,
+				BA54CA5521F2C2A200323E36 /* BaseSectionModel.m */,
+				BA54CA5A21F2C2A200323E36 /* BaseTableViewCell.h */,
+				BA54CA5321F2C2A200323E36 /* BaseTableViewCell.m */,
+				BA54CA5821F2C2A200323E36 /* BaseTableViewCellModel.h */,
+				BA54CA5E21F2C2A200323E36 /* BaseTableViewCellModel.m */,
+				BA54CA5B21F2C2A200323E36 /* BaseTableViewController.h */,
+				BA54CA5721F2C2A200323E36 /* BaseTableViewController.m */,
+			);
+			path = BaseTableViewController;
+			sourceTree = "<group>";
+		};
+		BA54CA5F21F2C2A200323E36 /* BaseCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				BA54CA6021F2C2A200323E36 /* BaseCollectionView.h */,
+				BA54CA6121F2C2A200323E36 /* BaseCollectionView.m */,
+			);
+			path = BaseCollectionView;
+			sourceTree = "<group>";
+		};
+		BA54CA6221F2C2A200323E36 /* BaseTableView */ = {
+			isa = PBXGroup;
+			children = (
+				BA54CA6321F2C2A200323E36 /* BaseTableView.m */,
+				BA54CA6421F2C2A200323E36 /* BaseTableView.h */,
+			);
+			path = BaseTableView;
+			sourceTree = "<group>";
+		};
+		BA54CA6921F2C2A200323E36 /* BaseCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BA54CA7021F2C2A200323E36 /* BaseCollectionCellModel.h */,
+				BA54CA6A21F2C2A200323E36 /* BaseCollectionCellModel.m */,
+				BA54CA7321F2C2A200323E36 /* BaseCollectionReusableViewFooter.h */,
+				BA54CA6E21F2C2A200323E36 /* BaseCollectionReusableViewFooter.m */,
+				BA54CA7421F2C2A300323E36 /* BaseCollectionReusableViewHeader.h */,
+				BA54CA6D21F2C2A200323E36 /* BaseCollectionReusableViewHeader.m */,
+				BA54CA6B21F2C2A200323E36 /* BaseCollectionSectionModel.h */,
+				BA54CA7221F2C2A200323E36 /* BaseCollectionSectionModel.m */,
+				BA54CA6C21F2C2A200323E36 /* BaseCollectionViewCell.h */,
+				BA54CA7121F2C2A200323E36 /* BaseCollectionViewCell.m */,
+				BA54CA6F21F2C2A200323E36 /* BaseCollectionViewController.h */,
+				BA54CA7521F2C2A300323E36 /* BaseCollectionViewController.m */,
+			);
+			path = BaseCollectionViewController;
+			sourceTree = "<group>";
+		};
+		BA54CA9221F2C83600323E36 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BA54CA8E21F2C5AC00323E36 /* BaseViewController.h */,
+				BA54CA8F21F2C5AC00323E36 /* BaseViewController.m */,
+			);
+			path = BaseViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +387,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA54CA7C21F2C2A300323E36 /* BaseTableViewCell.m in Sources */,
+				BA54CA9021F2C5AC00323E36 /* BaseViewController.m in Sources */,
+				BA54CA8521F2C2A300323E36 /* BaseCollectionCellModel.m in Sources */,
+				BA54CA8221F2C2A300323E36 /* BaseCollectionView.m in Sources */,
+				BA54CA8621F2C2A300323E36 /* BaseCollectionReusableViewHeader.m in Sources */,
+				BA54CA8321F2C2A300323E36 /* BaseTableView.m in Sources */,
+				BA54CA8A21F2C2A300323E36 /* BaseCollectionViewController.m in Sources */,
+				BA54CA7E21F2C2A300323E36 /* BaseSectionModel.m in Sources */,
+				BA54CA8021F2C2A300323E36 /* BaseSectionFooterView.m in Sources */,
+				BA54CA7D21F2C2A300323E36 /* BaseSectionHeaderView.m in Sources */,
+				BA54CA8721F2C2A300323E36 /* BaseCollectionReusableViewFooter.m in Sources */,
+				BA54CA8821F2C2A300323E36 /* BaseCollectionViewCell.m in Sources */,
+				BA54CA7F21F2C2A300323E36 /* BaseTableViewController.m in Sources */,
+				BA54CA8921F2C2A300323E36 /* BaseCollectionSectionModel.m in Sources */,
 				BA54CA1421F2BF9500323E36 /* ViewController.m in Sources */,
+				BA54CA8121F2C2A300323E36 /* BaseTableViewCellModel.m in Sources */,
 				BA54CA1F21F2BF9600323E36 /* main.m in Sources */,
 				BA54CA1121F2BF9500323E36 /* AppDelegate.m in Sources */,
 			);
@@ -434,7 +574,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NV7G2BDVZ7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = BaseOCClasses/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,6 +586,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.xcw.BaseOCClasses;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
@@ -450,7 +595,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NV7G2BDVZ7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = BaseOCClasses/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +607,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.xcw.BaseOCClasses;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};

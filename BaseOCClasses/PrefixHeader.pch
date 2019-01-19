@@ -1,0 +1,35 @@
+//
+//  PrefixHeader.pch
+//  BaseOCClasses
+//
+//  Created by sdusz on 2019/1/19.
+//  Copyright © 2019年 b. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "AppDelegate.h"
+#import "BaseViewController.h"
+
+#import "BaseSectionModel.h"
+#import "BaseTableViewCellModel.h"
+#import "BaseTableViewCell.h"
+#import "BaseTableViewController.h"
+#import "BaseSectionHeaderView.h"
+#import "BaseSectionFooterView.h"
+
+#import "BaseCollectionViewController.h"
+#import "BaseCollectionSectionModel.h"
+#import "BaseCollectionCellModel.h"
+#import "BaseCollectionViewCell.h"
+#import "BaseCollectionReusableViewFooter.h"
+#import "BaseCollectionReusableViewHeader.h"
+
+#import "BaseCollectionView.h"
+#import "BaseTableView.h"
+
+#endif /* PrefixHeader_pch */
